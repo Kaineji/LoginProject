@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: lightblue; /* Add your mobile background color here */
+      }
+  }
+  
+
+
+  /* For desktop */
+  @media only screen and (min-width: 768px) {
+    
+    body {
+        background-color: wheat; /* Add your mobile background color here */
+        min-height: 100vh;
+        width: 100%;
+      }
+      
+
+.mainContainer {
+
+    height: 45em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .Container {
+
+    background-color: #31363F;
+    padding: 50px;
+    border-radius: 10px;
+    height: 450px;
+    width: 400px;
+
+  }
+
+  #countlabel {
+
+    font-size: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+
+  }
+
+  .BtnContainer {
+
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+
+  }
+
+  #Increase {
+
+    width: 80px;
+    height: 50px;
+    background-color: #78A083;
+
+  }
+
+  #Increase:hover {
+
+    background-color: #E3651D;
+    color: wheat;
+    transition: 0.3s;
+
+  }
+
+  #Zero {
+
+    width: 70px;    
+    height: 50px;
+    background-color: #78A083;
+
+  }
+
+  #Zero:hover {
+
+    background-color: #E3651D;
+    color: wheat;
+    transition: 0.3s;
+
+  }
+
+  #Decrease {
+
+    width: 80px;
+    height: 50px;
+    background-color: #78A083;
+
+  }
+
+  #Decrease:hover {
+
+    background-color: #E3651D;
+    color: wheat;
+    transition: 0.3s;
+
+  }
+}

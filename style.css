@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 767px) {
+    
+    .main-container {
+
+        height: 100vh;
+        background-color: wheat;
+
+    }
+
+  }
+  
+
+
+
+  /* For desktop */
+  @media only screen and (min-width: 768px) {
+
+    .main-container {
+
+        height: 100vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .login-form {
+
+        height: 600px;
+        width: 370px;
+        background-color: #191919;
+        border-radius: 20px;
+        margin-left: 800px;
+
+    }
+
+    #Login {
+
+        margin-top: 40px;
+        color: white;
+        margin-left: 38%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+
+    .user {
+
+        margin-top: 50px;
+        margin-left: 2em;
+        height: 200px;
+        display: block;
+
+    }
+
+    #username {
+
+        font-size: 15px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    
+    #password {
+
+        font-size: 15px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+
+    #username-input {
+
+        margin-top: 10px;
+        border: none;
+        height: 30px;
+        width: 300px;
+        background-color: #191919;
+        border-bottom: 1px solid white;
+
+    }
+
+    #password-input {
+
+        margin-top: 10px;
+     
+        border: none;
+        height: 30px;
+        width: 300px;
+        background-color: #191919;
+        border-bottom: 1px solid white;
+
+    }
+
+    input {
+
+        color: white;
+
+    }
+
+    input::placeholder {
+
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    input:focus {
+
+        color: white;
+        outline: none;
+
+    }
+
+    .forgot {
+
+        margin-top: 10px;
+        margin-left: 185px;
+
+    }
+
+    #forgots {
+
+        color: blue;
+        text-decoration: none;
+
+    }
+
+    .name {
+
+        display: block;
+
+    }
+
+    .pass {
+
+        margin-top: 40px;
+
+    }
+
+    .login-register {
+
+        margin-top: 90px;
+        height: 150px;
+
+    }
+
+    #LoginBtn {
+
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 20%;
+        background-color: #191919;
+        color: wheat;
+        font-size: 17px;
+
+    }
+
+    #LoginBtn:hover {
+
+        background-color: #1597BB;
+        border: none;
+        transition: 0.5s;
+
+    }
+
+    #RegisterBtn {
+
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 20%;
+        background-color: #191919;
+        font-size: 17px;
+        margin-top: 20px;
+
+    }
+
+    #Reg {
+
+        color: wheat;
+        text-decoration: none;
+
+    }
+
+    #RegisterBtn:hover {
+
+        background-color: #1597BB;
+        border: none;
+        transition: 0.5s;
+
+    }
+
+    #input-username {
+
+       color: red;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: 13px;
+       margin-top: 5px;
+       height: 20px;
+
+    }
+
+    #input-password {
+
+        color: red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        margin-top: 5px;
+        height: 20px;
+ 
+     }
+ 
+
+
+
+  }
